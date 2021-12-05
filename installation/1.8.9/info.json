@@ -1,0 +1,87 @@
+{
+    "id": "1.8.9",
+    "scripts": {
+        "install": "install.js"
+    },
+    "game": {
+        "main_class": "net.minecraft.client.main.Main",
+        "classpath": [
+            {
+                "file": "client.jar"
+            },
+            {
+                "file": "jopt-simple-4.6.jar"
+            },
+            {
+                "file": "guava-17.0.jar"
+            },
+            {
+                "file": "lwjgl-2.9.4-nightly-20150209.jar",
+                "platforms": ["windows", "linux"]
+            },
+            {
+                "file": "gson-2.2.4.jar"
+            },
+            {
+                "file": "log4j-core-2.0-beta9.jar"
+            },
+            {
+                "file": "log4j-api-2.0-beta9.jar"
+            },
+            {
+                "file": "commons-lang3-3.3.2.jar"
+            },
+            {
+                "file": "authlib-1.5.21.jar"
+            },
+            {
+                "file": "netty-all-4.0.23.Final.jar"
+            },
+            {
+                "file": "commons-io-2.4.jar"
+            },
+            {
+                "file": "soundsystem-20120107.jar"
+            },
+            {
+                "file": "librarylwjglopenal-20100824.jar"
+            },
+            {
+                "file": "codecjorbis-20101023.jar"
+            },
+            {
+                "file": "icu4j-core-mojang-51.2.jar"
+            },
+            {
+                "file": "lwjgl_util-2.9.4-nightly-20150209.jar",
+                "platforms": ["windows", "linux"]
+            },
+            {
+                "file": "realms-1.7.59.jar"
+            },
+            {
+                "file": "commons-codec-1.9.jar"
+            }
+        ],
+        "program_arguments": [
+            "--version",
+            "1.8.9",
+            "--username",
+            "{username}",
+            "--uuid",
+            "{uuid}",
+            "--accessToken",
+            "{access_token}",
+            "--assetIndex",
+            "1.8",
+            "--gameDir",
+            "{root}",
+            "--assetsDir",
+            "{files}/asset"
+        ],
+        "java_arguments": [
+            "-Djava.library.path={files}"
+        ],
+        "policy": "policy.policy"
+    }
+}
