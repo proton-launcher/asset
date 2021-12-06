@@ -104,8 +104,13 @@ grant {
     permission java.io.FilePermission "/tmp/*", "write";
     permission java.lang.reflect.ReflectPermission "suppressAccessChecks";
     permission java.lang.management.ManagementPermission "monitor";
-    permission java.net.SocketPermission "*", "resolve,listen,connect,accept";
     permission java.net.NetPermission "specifyStreamHandler";
+    permission java.net.SocketPermission "localhost:4445", "resolve,listen";
+    permission java.net.SocketPermission "localhost:0", "resolve,listen";
+    permission java.net.SocketPermission "224.0.2.60", "connect,accept,resolve";
+    permission java.net.SocketPermission "*", "resolve";
+    permission java.net.SocketPermission "192.168.1.1:53", "connect,resolve,accept";
+    permission java.net.SocketPermission "*:25565", "connect";
     permission javax.management.MBeanServerPermission "createMBeanServer";
     permission java.net.URLPermission "https://mcoapi.minecraft.net/mco/client/compatible", "GET:Cookie";
     permission java.net.URLPermission "http://snoop.minecraft.net/client", "POST:Content-Language";
