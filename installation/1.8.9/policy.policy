@@ -89,7 +89,7 @@ grant {
     permission java.io.FilePermission "usercache.json", "read,write";
     permission java.io.FilePermission "resourcepacks", "read,write";
     permission java.io.FilePermission "saves", "read";
-    permission java.io.FilePermission "crash-reports", "read";
+    permission java.io.FilePermission "crash-reports", "read,write";
     permission java.io.FilePermission "crash-reports/*", "read,write,delete";
     permission java.io.FilePermission "options.txt", "read,write";
     permission java.io.FilePermission "servers.dat", "read,write,delete";
