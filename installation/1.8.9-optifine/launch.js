@@ -6,4 +6,4 @@ classpath.push(files + "/launchwrapper-of-2.2.jar");
 program_arguments.push("--tweakClass");
 program_arguments.push("optifine.OptiFineTweaker");
 
-policies.push(read(files + "/policy.policy").replace(/{files}/g, files));
+policies.push(replace(read(files + "/policy.policy"), "{files}", files));
