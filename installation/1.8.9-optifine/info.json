@@ -2,22 +2,7 @@
     "id": "1.8.9-optifine",
     "parent": "1.8.9",
     "scripts": {
-        "install": "install.js"
-    },
-    "game": {
-        "main_class": "net.minecraft.launchwrapper.Launch",
-        "classpath": [
-            {
-                "file": "OptiFine-1.8.9_HD_U_M5.jar"
-            },
-            {
-                "file": "launchwrapper-of-2.2.jar"
-            }
-        ],
-        "program_arguments": [
-            "--tweakClass",
-            "optifine.OptiFineTweaker"
-        ],
-        "policy": "policy.policy"
+        "install": "install.js",
+        "launch": "launch.js"
     }
 }
