@@ -85,9 +85,9 @@ grant {
     permission java.lang.RuntimePermission "accessClassInPackage.sun.security.pkcs";
     permission java.io.FilePermission "{files}/-", "read";
     permission java.io.FilePermission "logs/*", "read,write,delete";
-    permission java.io.FilePermission "logs", "read";
+    permission java.io.FilePermission "logs", "read,write";
     permission java.io.FilePermission "usercache.json", "read,write";
-    permission java.io.FilePermission "resourcepacks", "read";
+    permission java.io.FilePermission "resourcepacks", "read,write";
     permission java.io.FilePermission "saves", "read";
     permission java.io.FilePermission "crash-reports", "read";
     permission java.io.FilePermission "crash-reports/*", "read,write,delete";
