@@ -1,0 +1,8 @@
+{
+    "id": "1.8.9-forge",
+    "parent": "1.8.9",
+    "scripts": {
+        "install": "install.js",
+        "launch": "launch.js"
+    }
+}
