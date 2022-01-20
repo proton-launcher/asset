@@ -1,4 +1,6 @@
 main_class = "net.minecraft.client.main.Main";
+java_version = 8
+
 classpath.push(files + "/client.jar");
 classpath.push(files + "/jopt-simple-4.6.jar");
 classpath.push(files + "/guava-17.0.jar");
