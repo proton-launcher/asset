@@ -36,5 +36,3 @@ program_arguments.push("--assetIndex");
 program_arguments.push("1.8");
 program_arguments.push("--gameDir");
 program_arguments.push(root);
-
-policies.push(replace(read(files + "/policy.policy"), "{files}", files));

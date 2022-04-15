@@ -1,0 +1,7 @@
+{
+    "id": "1.18.2",
+    "scripts": {
+        "install": "install.js",
+        "launch": "launch.js"
+    }
+}

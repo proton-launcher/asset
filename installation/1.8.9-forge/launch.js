@@ -9,5 +9,3 @@ classpath.push(files + "/vecmath-1.5.2.jar");
 
 program_arguments.push("--tweakClass");
 program_arguments.push("net.minecraftforge.fml.common.launcher.FMLTweaker");
-
-policies.push(replace(read(files + "/policy.policy"), "{files}", files));

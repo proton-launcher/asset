@@ -9,7 +9,7 @@ download("https://libraries.minecraft.net/org/apache/logging/log4j/log4j-core/2.
 download("https://libraries.minecraft.net/org/apache/logging/log4j/log4j-api/2.0-beta9/log4j-api-2.0-beta9.jar", files + "/log4j-api-2.0-beta9.jar");
 download("https://libraries.minecraft.net/org/apache/commons/commons-lang3/3.3.2/commons-lang3-3.3.2.jar", files + "/commons-lang3-3.3.2.jar");
 if (os == "linux") {
-    download("https://libraries.minecraft.net/org/lwjgl/lwjgl/lwjgl-platform/2.9.4-nightly-20150209/lwjgl-platform-2.9.4-nightly-20150209-natives-linux.jar", files + "/lwjgl-platform-2.9.4-nightly-20150209-natives-linux.jar");
+    download("https://libraries.minecraft.net/org/lwjgl/lwjgl/lwjgl-platform/2.9.4-nightly-20150209/lwjgl-platform-2.9.4-nightly-20150209-natives-linux.jar", files + "/lwjgl-platform-2.9.4-nightly-20150209-natives-linux.jar", true);
     extract(files + "/lwjgl-platform-2.9.4-nightly-20150209-natives-linux.jar", files);
 }
 download("https://libraries.minecraft.net/com/mojang/authlib/1.5.21/authlib-1.5.21.jar", files + "/authlib-1.5.21.jar");
@@ -25,7 +25,7 @@ if (os == "linux" || os == "windows") {
 download("https://libraries.minecraft.net/com/mojang/realms/1.7.59/realms-1.7.59.jar", files + "/realms-1.7.59.jar");
 download("https://libraries.minecraft.net/commons-codec/commons-codec/1.9/commons-codec-1.9.jar", files + "/commons-codec-1.9.jar");
 
-download("https://launchermeta.mojang.com/mc/assets/1.8/e264980ad255aad2174cbe4d674c102474ae5202/1.8.json", files + "/asset/indexes/1.8.json");
+download("https://launchermeta.mojang.com/mc/assets/1.8/e264980ad255aad2174cbe4d674c102474ae5202/1.8.json", files + "/asset/indexes/1.8.json", true);
 let json = to_json(read(files + "/asset/indexes/1.8.json"));
 let objects = json["objects"];
 for (key in objects) {
