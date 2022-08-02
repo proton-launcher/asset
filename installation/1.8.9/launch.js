@@ -35,4 +35,4 @@ program_arguments.push(files + "/asset");
 program_arguments.push("--assetIndex");
 program_arguments.push("1.8");
 program_arguments.push("--gameDir");
-program_arguments.push(root);
+program_arguments.push(game);
