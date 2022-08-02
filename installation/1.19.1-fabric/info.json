@@ -1,0 +1,8 @@
+{
+    "id": "1.19.1-fabric",
+    "parent": "1.19.1",
+    "scripts": {
+        "install": "install.js",
+        "launch": "launch.js"
+    }
+}
