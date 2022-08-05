@@ -31,6 +31,7 @@ classpath.push(files + "/lwjgl-stb-3.2.2.jar");
 classpath.push(files + "/oshi-core-5.8.5.jar");
 classpath.push(files + "/blocklist-1.0.10.jar");
 classpath.push(files + "/failureaccess-1.0.1.jar");
+classpath.push(files + "/commons-compress-1.21.jar");
 
 java_arguments.push("-Djava.library.path=" + files);
 
