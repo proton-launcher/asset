@@ -31,6 +31,9 @@ if (os == "linux") {
 
     download("https://libraries.minecraft.net/org/lwjgl/lwjgl-stb/3.3.1/lwjgl-stb-3.3.1-natives-linux.jar", files + "/lwjgl-stb-3.3.1-natives-linux.jar", true);
     extract(files + "/lwjgl-stb-3.3.1-natives-linux.jar", files);
+
+    download("https://libraries.minecraft.net/org/lwjgl/lwjgl-tinyfd/3.3.1/lwjgl-tinyfd-3.3.1-natives-linux.jar", files + "/lwjgl-tinyfd-3.3.1-natives-linux.jar", true);
+    extract(files + "/lwjgl-stb-3.3.1-natives-linux.jar", files);
 }
 download("https://libraries.minecraft.net/org/lwjgl/lwjgl-opengl/3.3.1/lwjgl-opengl-3.3.1.jar", files + "/lwjgl-opengl-3.3.1.jar");
 download("https://libraries.minecraft.net/org/lwjgl/lwjgl-openal/3.3.1/lwjgl-openal-3.3.1.jar", files + "/lwjgl-openal-3.3.1.jar");
