@@ -41,6 +41,7 @@ download("https://libraries.minecraft.net/com/github/oshi/oshi-core/5.8.5/oshi-c
 download("https://libraries.minecraft.net/com/mojang/blocklist/1.0.10/blocklist-1.0.10.jar", files + "/blocklist-1.0.10.jar");
 download("https://libraries.minecraft.net/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar", files + "/failureaccess-1.0.1.jar");
 download("https://libraries.minecraft.net/org/apache/commons/commons-compress/1.21/commons-compress-1.21.jar", files + "/commons-compress-1.21.jar");
+download("https://libraries.minecraft.net/org/lwjgl/lwjgl-tinyfd/3.3.1/lwjgl-tinyfd-3.3.1.jar", files + "/lwjgl-tinyfd-3.3.1.jar");
 
 download("https://launchermeta.mojang.com/v1/packages/b5c7548ddb9e584e84a5f762da5b78211c715a63/1.19.json", files + "/asset/indexes/1.19.json", true);
 let json = to_json(read(files + "/asset/indexes/1.19.json"));
