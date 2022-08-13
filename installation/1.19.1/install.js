@@ -17,26 +17,26 @@ download("https://libraries.minecraft.net/com/mojang/authlib/3.11.50/authlib-3.1
 download("https://libraries.minecraft.net/commons-io/commons-io/2.11.0/commons-io-2.11.0.jar", files + "/commons-io-2.11.0.jar");
 download("https://libraries.minecraft.net/net/java/dev/jna/jna/5.10.0/jna-5.10.0.jar", files + "/jna-5.10.0.jar");
 download("https://libraries.minecraft.net/net/java/dev/jna/jna-platform/5.10.0/jna-platform-5.10.0.jar", files + "/jna-platform-5.10.0.jar");
-download("https://libraries.minecraft.net/org/lwjgl/lwjgl-glfw/3.2.2/lwjgl-glfw-3.2.2.jar", files + "/lwjgl-glfw-3.2.2.jar");
-download("https://libraries.minecraft.net/org/lwjgl/lwjgl/3.2.2/lwjgl-3.2.2.jar", files + "/lwjgl-3.2.2.jar");
+download("https://libraries.minecraft.net/org/lwjgl/lwjgl-glfw/3.3.1/lwjgl-glfw-3.3.1.jar", files + "/lwjgl-glfw-3.3.1.jar");
+download("https://libraries.minecraft.net/org/lwjgl/lwjgl/3.3.1/lwjgl-3.3.1.jar", files + "/lwjgl-3.3.1.jar");
 if (os == "linux") {
-    download("https://libraries.minecraft.net/org/lwjgl/lwjgl/3.2.2/lwjgl-3.2.2-natives-linux.jar", files + "/lwjgl-3.2.2-natives-linux.jar", true);
-    extract(files + "/lwjgl-3.2.2-natives-linux.jar", files);
+    download("https://libraries.minecraft.net/org/lwjgl/lwjgl/3.3.1/lwjgl-3.3.1-natives-linux.jar", files + "/lwjgl-3.3.1-natives-linux.jar", true);
+    extract(files + "/lwjgl-3.3.1-natives-linux.jar", files);
 
-    download("https://libraries.minecraft.net/org/lwjgl/lwjgl-glfw/3.2.2/lwjgl-glfw-3.2.2-natives-linux.jar", files + "/lwjgl-glfw-3.2.2-natives-linux.jar", true);
-    extract(files + "/lwjgl-glfw-3.2.2-natives-linux.jar", files);
+    download("https://libraries.minecraft.net/org/lwjgl/lwjgl-glfw/3.3.1/lwjgl-glfw-3.3.1-natives-linux.jar", files + "/lwjgl-glfw-3.3.1-natives-linux.jar", true);
+    extract(files + "/lwjgl-glfw-3.3.1-natives-linux.jar", files);
 
-    download("https://libraries.minecraft.net/org/lwjgl/lwjgl-opengl/3.2.2/lwjgl-opengl-3.2.2-natives-linux.jar", files + "/lwjgl-opengl-3.2.2-natives-linux.jar", true);
-    extract(files + "/lwjgl-opengl-3.2.2-natives-linux.jar", files);
+    download("https://libraries.minecraft.net/org/lwjgl/lwjgl-opengl/3.3.1/lwjgl-opengl-3.3.1-natives-linux.jar", files + "/lwjgl-opengl-3.3.1-natives-linux.jar", true);
+    extract(files + "/lwjgl-opengl-3.3.1-natives-linux.jar", files);
 
-    download("https://libraries.minecraft.net/org/lwjgl/lwjgl-stb/3.2.2/lwjgl-stb-3.2.2-natives-linux.jar", files + "/lwjgl-stb-3.2.2-natives-linux.jar", true);
-    extract(files + "/lwjgl-stb-3.2.2-natives-linux.jar", files);
+    download("https://libraries.minecraft.net/org/lwjgl/lwjgl-stb/3.3.1/lwjgl-stb-3.3.1-natives-linux.jar", files + "/lwjgl-stb-3.3.1-natives-linux.jar", true);
+    extract(files + "/lwjgl-stb-3.3.1-natives-linux.jar", files);
 }
-download("https://libraries.minecraft.net/org/lwjgl/lwjgl-opengl/3.2.2/lwjgl-opengl-3.2.2.jar", files + "/lwjgl-opengl-3.2.2.jar");
-download("https://libraries.minecraft.net/org/lwjgl/lwjgl-openal/3.2.2/lwjgl-openal-3.2.2.jar", files + "/lwjgl-openal-3.2.2.jar");
+download("https://libraries.minecraft.net/org/lwjgl/lwjgl-opengl/3.3.1/lwjgl-opengl-3.3.1.jar", files + "/lwjgl-opengl-3.3.1.jar");
+download("https://libraries.minecraft.net/org/lwjgl/lwjgl-openal/3.3.1/lwjgl-openal-3.3.1.jar", files + "/lwjgl-openal-3.3.1.jar");
 download("https://libraries.minecraft.net/com/ibm/icu/icu4j/70.1/icu4j-70.1.jar", files + "/icu4j-70.1.jar");
 download("https://libraries.minecraft.net/com/mojang/text2speech/1.12.4/text2speech-1.12.4.jar", files + "/text2speech-1.12.4.jar");
-download("https://libraries.minecraft.net/org/lwjgl/lwjgl-stb/3.2.2/lwjgl-stb-3.2.2.jar", files + "/lwjgl-stb-3.2.2.jar");
+download("https://libraries.minecraft.net/org/lwjgl/lwjgl-stb/3.3.1/lwjgl-stb-3.3.1.jar", files + "/lwjgl-stb-3.3.1.jar");
 download("https://libraries.minecraft.net/com/github/oshi/oshi-core/5.8.5/oshi-core-5.8.5.jar", files + "/oshi-core-5.8.5.jar");
 download("https://libraries.minecraft.net/com/mojang/blocklist/1.0.10/blocklist-1.0.10.jar", files + "/blocklist-1.0.10.jar");
 download("https://libraries.minecraft.net/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar", files + "/failureaccess-1.0.1.jar");
